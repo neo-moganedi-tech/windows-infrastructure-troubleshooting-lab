@@ -107,21 +107,9 @@ When an infrastructure service becomes unavailable, the investigation begins wit
 
 The general approach is:
 
-Client
-  ↓
-Network connectivity
-  ↓
-IP configuration
-  ↓
-Security controls / Firewall
-  ↓
-TCP port
-  ↓
-Service
-  ↓
-Application
+Client - Network connectivity - IP configuration - Security controls / Firewall - TCP port - Service - Application
 
-The purpose of this approach is to isolate the failure rather than immediately changing configuration.
+The purpose of this approach is to isolate the failure rather than immediately changing configuration
 
 Each incident is documented using:
 
